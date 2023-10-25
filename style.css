@@ -1,0 +1,94 @@
+header{
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom:  3px solid green;
+}
+
+.container{ 
+    background-color: thistle;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-contanier {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.card {
+    width: 30%;
+    display: inline-block;
+    margin:  1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url(./img/tenis1.jpg);
+}
+#img-2{
+    background-image: url(./img/tenis2.jpg)
+}
+#img-3{
+    background-image: url(./img/tenis3.jpg)
+}
+#img-4{
+    background-image: url(./img/tenis4.jpg)
+}
+#img-5{
+    background-image: url(./img/tenis5.jpg)
+}
+#img-6{
+    background-image: url(./img/tenis6.jpg)
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #0f642f;
+    border-left:  7px solid #3db36b;
+    font-size: 24px;
+}
+
+.card p{
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color:#3db36b;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: #0f642f;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #3db36b;
+    text-align: center;
+    color: #fff;
+    border-top:  3px solid #0f642f;
+    padding: 50px;
+
+}
